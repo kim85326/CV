@@ -41,7 +41,7 @@
     transition: all 0.3s;
 }
 
-.btn.btn-primary{
+.btn.btn--primary{
 	background-color: #e881a7;
 	color: #fefefe;
 }
@@ -140,7 +140,11 @@
 .imgbox{
 	width: 100%;
 	overflow: hidden;
+	box-shadow: 0 0 20px black;
+}
 
+.imgbox:hover{
+	box-shadow: 0 0 30px black;
 }
 
 .imgbox__inner{
@@ -170,7 +174,7 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../img/urban-long-exposure-night.jpg);
+	background: url(../img/ntust.jpg);
 	background-size: cover;
 	background-position: center;
 	z-index: -100;
@@ -193,7 +197,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 100;
+	z-index: 200;
 	transition: all 0.3s;
 }
 
@@ -370,28 +374,41 @@
 
 .hero__bg{
 	position: absolute;
-	top: 80px;
+	top: 200px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 100%;
 	max-width: 1140px;
 	height: 100%;
-	background: url(../img/portrait.png);
-	background-size: 400px;
+	background: url(../img/me.png);
+	background-size: 600px;
 	background-repeat: no-repeat;
 	background-position: top right; 
 }
 
+@media (max-width: 1200px){
+	.hero__bg{
+		background-size: 500px;
+		top: 280px;
+	}
+}
+
 @media (max-width: 768px){
 	.hero__bg{
-		background-size: 320px;
+		background-size: 400px;
 	}
 }
 
 @media (max-width: 480px){
 	.hero__bg{
-		background-size: 200px;
+		background-size: 230px;
+		top: 100px;
 	}
+}
+
+.hero > .container{
+    position: relative;
+	z-index: 100;
 }
 
 /* quote */
@@ -440,6 +457,10 @@
 }
 
 /* skill */
+
+#myChart{
+	margin: 30px auto;
+}
 
 .skill{
 	padding-top: 80px;
@@ -727,7 +748,23 @@
 }
 
 .info{
-	padding-top: 40px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	width: 240px;
+	margin: 0 auto;
+}
+
+.info > img{
+	border-radius: 50%;
+	border: 7px solid #ececec;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.info > .navbar__social-bar{
 	text-align: center;
 }
 

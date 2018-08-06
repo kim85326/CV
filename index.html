@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>elaine's CV</title>
+	<title>Elaine's CV</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 	<!-- 引入 fontawsome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -16,6 +16,7 @@
 	<script src="js/jquery-2.0.2.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -29,13 +30,13 @@
 			<div class="container">
 				<div class="navbar navbar--collapse d-flex">
 					<div class="social-bar navbar__social-bar">
-						<a href="#" class="icon-btn">
+						<a href="https://www.facebook.com/kim85326" class="icon-btn" target="_blank">
 							<i class="fab fa-facebook-square"></i>
 						</a>
-						<a href="#" class="icon-btn">
-							<i class="fab fa-instagram"></i>
+						<a href="https://github.com/kim85326" class="icon-btn" target="_blank">
+							<i class="fab fa-github"></i>
 						</a>
-						<a href="#" class="icon-btn">
+						<a href="mailto:kim85326@gmail.com" class="icon-btn" target="_blank">
 							<i class="fas fa-envelope"></i>
 						</a>
 					</div>
@@ -80,7 +81,8 @@
 							<h1 class="hero__heading">
 								Hello<br>
 								I'm Elaine.
-							</h1> 	
+							</h1>
+							<a href="./resume.pdf" class="btn btn--primary btn--md" target="_blank">RESUME</a> 	
 						</div>
 					</div>
 				</div>
@@ -97,13 +99,12 @@
 									<i class="fas fa-quote-right"></i>
 								</div>
 								<p class="quote__text">
-									 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam aspernatur fuga fugit excepturi at tempora ipsum consectetur voluptas, eligendi cupiditate.
+									對我來說，不學習，毋寧死。
 								</p>
 								<div class="quote__name">
 									<span>
-										somebody - 
+										- 羅蒙諾索夫
 									</span>
-									from somewhere
 								</div>
 							</div>
 						</div>
@@ -116,7 +117,7 @@
 			<div id="skill" class="skill bg-color-white">
 				<div class="container">
 					<h2 class="subtitle wow bounceInUp">SKILL</h2>
-					<div class="skill-group">
+					<!-- <div class="skill-group">
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="skill-card wow bounceInUp" data-wow-delay="0.5s">
@@ -179,7 +180,8 @@
 								</div>
 							</div>
 						</div>						
-					</div>
+					</div> -->
+					<canvas id="myChart" height="40vh" width="80vw"></canvas>
 				</div>
 			</div>
 			<!-- skill end -->
@@ -194,31 +196,31 @@
 							<div class="timeline-card__row">
 								<div class="timeline-card wow bounceInUp">
 									<p class="timeline-card__text">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aut delectus maiores, a, porro voluptas! Iusto libero quidem nihil deserunt!
+										第一份實習工作是在新創公司，雖然在「九樓壹號科技有限公司」只待了短短的三個月，但這三個月的經歷是我成長的大躍進，讓我從不太熟悉且無法靈活運用 CSS 的 position 屬性，到可以獨立完成排版以及學習到跨部門的溝通、做出符合使用者體驗的產品，除了 HTML、CSS、Javascript、jQuery、Bootstrap3、Nodejs、Express、Firebase、git 等等技術上的了解，「新創公司的工作模式」、「團隊如何分工合作以及溝通方式」這都是我在這段實習學到的寶貴經驗，也讓我明白如何真正運用在學校學習的知識。
 									</p>
 								</div>
 							</div>
 							<div class="timeline-card__row">
 								<div class="timeline-card wow bounceInUp">
 									<p class="timeline-card__text">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aut delectus maiores, a, porro voluptas! Iusto libero quidem nihil deserunt!
+										第二份實習在「伊特諾通訊網路有限公司」擔任研究助理，主要是系統分析、研究資料庫的定義、FACEBOOK API 使用方式，並完成一些 demo 的網頁，例如直播、貼文留言統計、分析等等。
 									</p>
 								</div>
 							</div>
 							<div class="timeline-card__row">
 								<div class="timeline-card wow bounceInUp">
 									<p class="timeline-card__text">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aut delectus maiores, a, porro voluptas! Iusto libero quidem nihil deserunt!
+										第三份實習在「創炎資訊科技股份有限公司」，老闆很認真的講解 Top-Down 程式設計與解決問題的技巧，公司使用的 HTML、CSS、Javascript、jQuery、Bootstrap3、PHP、MySQL 作為開發語言，如果有需要的模組就自己寫 jQuery plugin 來完成，老闆也將這一系列的技術做成教育訓練課程，讓我們開發時更能遵循一套系統。實習期間，由我擔任工程師與一名設計師一同規劃一個全新的訂房網站，從網站規劃、分析、專訪用戶、到網站開發，一路從無到有的經驗，讓我受益良多。
 									</p>
 								</div>
 							</div>
-							<div class="timeline-card__row">
+							<!-- <div class="timeline-card__row">
 								<div class="timeline-card wow bounceInUp">
 									<p class="timeline-card__text">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde aut delectus maiores, a, porro voluptas! Iusto libero quidem nihil deserunt!
 									</p>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -234,9 +236,9 @@
 							<div class="row">
 								<div class="col-sm-6 order-sm-last">
 									<div class="imgbox">
-										<a href="img/works/work001.jpg" data-fancybox="group">
+										<a href="img/works/work1.png" data-fancybox="group">
 											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work001_thumb.jpg);"></div>
+												<div class="image" style="background-image: url(img/works/thumbnail/work1_thumb.png);"></div>
 											</div>
 										</a>
 									</div>
@@ -244,13 +246,14 @@
 								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
 									<div class="work-item__text work-item__text--right">
 										<h3 class="work-item__title work-item__title--right">
-											Work title for good design stuff
+											Taitung Homestay Accociation
 										</h3>
 										<p class="work-item__intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quisquam reprehenderit perspiciatis minima unde rerum magnam, sit tenetur odio? Est!
+											台東民宿協會官方網站<br>
+											在 TRAIWAN 實習的時候完成的作品
 										</p>
 										<div class="text-btn-group">
-											<a href="#" class="text-btn text-btn--lg text-btn--primary">SHOW</a>
+											<a href="https://kim85326.github.io/ttha/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
 										</div>
 									</div>
 								</div>
@@ -260,9 +263,9 @@
 							<div class="row">
 								<div class="col-sm-6 offset-lg-1 order-sm-first">
 									<div class="imgbox">
-										<a href="img/works/work002.jpg" data-fancybox="group">
+										<a href="img/works/work2.png" data-fancybox="group">
 											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work002_thumb.jpg);"></div>
+												<div class="image" style="background-image: url(img/works/thumbnail/work2_thumb.png);"></div>
 											</div>
 										</a>
 									</div>
@@ -270,13 +273,14 @@
 								<div class="col-sm-6 col-lg-4 order-sm-last">
 									<div class="work-item__text">
 										<h3 class="work-item__title work-item__title--left">
-											Work title for good design stuff
+											nice3s
 										</h3>
 										<p class="work-item__intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quisquam reprehenderit perspiciatis minima unde rerum magnam, sit tenetur odio? Est!
+											格好青旅 welcome page <br>
+											在 TRAIWAN 實習的時候完成的作品
 										</p>
 										<div class="text-btn-group">
-											<a href="#" class="text-btn text-btn--lg text-btn--primary">SHOW</a>
+											<a href="http://nice3s.com" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
 										</div>
 									</div>
 								</div>
@@ -286,9 +290,9 @@
 							<div class="row">
 								<div class="col-sm-6 order-sm-last">
 									<div class="imgbox">
-										<a href="img/works/work003.jpg" data-fancybox="group">
+										<a href="img/works/work3.png" data-fancybox="group">
 											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work003_thumb.jpg);"></div>
+												<div class="image" style="background-image: url(img/works/thumbnail/work3_thumb.png);"></div>
 											</div>
 										</a>
 									</div>
@@ -296,13 +300,13 @@
 								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
 									<div class="work-item__text work-item__text--right">
 										<h3 class="work-item__title work-item__title--right">
-											Work title for good design stuff
+											Instagram
 										</h3>
 										<p class="work-item__intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quisquam reprehenderit perspiciatis minima unde rerum magnam, sit tenetur odio? Est!
+											主要練習 css 的 animation
 										</p>
 										<div class="text-btn-group">
-											<a href="#" class="text-btn text-btn--lg text-btn--primary">SHOW</a>
+											<a href="https://kim85326.github.io/animation_practice_ig" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
 										</div>
 									</div>
 								</div>
@@ -312,9 +316,9 @@
 							<div class="row">
 								<div class="col-sm-6 offset-lg-1 order-sm-first">
 									<div class="imgbox">
-										<a href="img/works/work004.jpg" data-fancybox="group">
+										<a href="img/works/work4.png" data-fancybox="group">
 											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work004_thumb.jpg);"></div>
+												<div class="image" style="background-image: url(img/works/thumbnail/work4_thumb.png);"></div>
 											</div>
 										</a>
 									</div>
@@ -322,22 +326,24 @@
 								<div class="col-sm-6 col-lg-4 order-sm-last">
 									<div class="work-item__text">
 										<h3 class="work-item__title work-item__title--left">
-											Work title for good design stuff
+											Dumpling
 										</h3>
 										<p class="work-item__intro">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quisquam reprehenderit perspiciatis minima unde rerum magnam, sit tenetur odio? Est!
+											團購水餃 <br>
+											這是我第一次使用 sass <br>
+											且利用 prepos 來進行編譯 <br>
 										</p>
 										<div class="text-btn-group">
-											<a href="#" class="text-btn text-btn--lg text-btn--primary">SHOW</a>
+											<a href="https://kim85326.github.io/dumpling/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="btn-group btn-group--center  wow bounceIn">
+					<!-- <div class="btn-group btn-group--center  wow bounceIn">
 						<a href="#" class="btn btn--secondary">MORE</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<!-- portfolio end -->
@@ -346,14 +352,17 @@
 				<div class="container">
 					<h2 class="subtitle color-white wow bounceInUp">CONTACT</h2>
 					<div class="info">
+						<img src="img/self.png">
+						李慈恩 ( Elaine Li ) <br>
+						E-mail: kim85326@gmail.com
 						<div class="social-bar navbar__social-bar">
-							<a href="#" class="icon-btn wow bounceInUp" data-wow-delay="0.3s">
+							<a href="https://www.facebook.com/kim85326" class="icon-btn wow bounceInUp" data-wow-delay="0.3s" target="_blank">
 								<i class="fab fa-facebook-square"></i>
 							</a>
-							<a href="#" class="icon-btn wow bounceInUp" data-wow-delay="0.6s">
-								<i class="fab fa-instagram"></i>
+							<a href="https://github.com/kim85326" class="icon-btn wow bounceInUp" data-wow-delay="0.6s" target="_blank">
+								<i class="fab fa-github"></i>
 							</a>
-							<a href="#" class="icon-btn wow bounceInUp" data-wow-delay="0.9s">
+							<a href="mailto:kim85326@gmail.com" class="icon-btn wow bounceInUp" data-wow-delay="0.9s" target="_blank">
 								<i class="fas fa-envelope"></i>
 							</a>
 						</div>
