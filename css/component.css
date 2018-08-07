@@ -191,6 +191,52 @@
 	opacity: 0.6;
 }
 
+/* tag */
+.tags{
+	
+}
+
+.tags > span{
+	position: relative;
+	display: inline-block;
+	background-color: #0089e0;
+	color: #fff;
+	padding: 0 10px 0 12px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 11px;
+	margin: 0 16px 8px 0;
+}
+
+.tags > span::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -12px;
+	width: 0;
+	height: 0;
+	border-color: transparent #0089e0 transparent transparent;
+	border-style: solid;
+	border-width: 12px 12px 12px 0;	
+}
+
+.tags > span:after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    float: left;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+}
+
 /* header */
 .header{
 	position: fixed;
@@ -458,10 +504,6 @@
 
 /* skill */
 
-#myChart{
-	margin: 30px auto;
-}
-
 .skill{
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -471,6 +513,17 @@
 	.skill{
 		padding-top: 40px;
 		padding-bottom: 40px;
+	}
+}
+
+.skill-chart{
+	width: 70%;
+	margin: 90px auto;
+}
+
+@media (max-width: 992px){
+	.skill-chart{
+		width: 100%;
 	}
 }
 
