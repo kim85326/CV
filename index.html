@@ -1,123 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Elaine's CV</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<!-- 引入 fontawsome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-	<!-- 引入 style -->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/component.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="css/jquery.fancybox.css">
-	<!-- 引入 js plugin -->
-	<script src="js/jquery-2.0.2.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-</head>
-<body>
-	<div class="wrapper">
-		
-		<!-- bg start -->
-		<div class="bg"></div>
-		<!-- bg end -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Elaine's CV</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <!-- 引入 fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+      crossorigin="anonymous"
+    />
+    <!-- 引入 style -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <!-- 引入 js plugin -->
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- bg start -->
+      <div class="bg"></div>
+      <!-- bg end -->
 
-		<!-- header start -->
-		<header class="header js-header">
-			<div class="container">
-				<div class="navbar navbar--collapse d-flex">
-					<div class="social-bar navbar__social-bar">
-						<a href="https://www.facebook.com/kim85326" class="icon-btn" target="_blank">
-							<i class="fab fa-facebook-square"></i>
-						</a>
-						<a href="https://github.com/kim85326" class="icon-btn" target="_blank">
-							<i class="fab fa-github"></i>
-						</a>
-						<a href="mailto:kim85326@gmail.com" class="icon-btn" target="_blank">
-							<i class="fas fa-envelope"></i>
-						</a>
-					</div>
-					<div class="nav">
-						<a href="#popup-overlay" class="menu-toggle">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-						<div id="popup-overlay" class="popup-menu">
-							<div class="container">
-								<div class="d-flex justify-content-end">
-									<a href="#" class="popup-menu__close">
-										<span></span>
-										<span></span>
-									</a>
-								</div>
-								<ul class="d-block">
-									<li><a href="#about" class="popup-menu__item">ABOUT</a></li>
-									<li><a href="#skill" class="popup-menu__item">SKILL</a></li>
-									<li><a href="#experience" class="popup-menu__item">EXPERIENCE</a></li>
-									<li><a href="#portfolio" class="popup-menu__item">PORTFOLIO</a></li>
-									<li><a href="#contact" class="popup-menu__item">CONTACT</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- header end -->
+      <!-- header start -->
+      <header class="header js-header">
+        <div class="container">
+          <div class="navbar navbar--collapse d-flex">
+            <div class="social-bar navbar__social-bar">
+              <a
+                href="https://www.facebook.com/kim85326"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a
+                href="https://github.com/kim85326"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="mailto:kim85326@gmail.com"
+                class="icon-btn"
+                target="_blank"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <div class="nav">
+              <a href="#popup-overlay" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+              <div id="popup-overlay" class="popup-menu">
+                <div class="container">
+                  <div class="d-flex justify-content-end">
+                    <a href="#" class="popup-menu__close">
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </div>
+                  <ul class="d-block">
+                    <li><a href="#about" class="popup-menu__item">ABOUT</a></li>
+                    <li><a href="#skill" class="popup-menu__item">SKILL</a></li>
+                    <li>
+                      <a href="#experience" class="popup-menu__item"
+                        >EXPERIENCE</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#portfolio" class="popup-menu__item"
+                        >PORTFOLIO</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#contact" class="popup-menu__item">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
 
-		<!-- main start -->
-		<div class="main">
-			
-			<!-- about start -->
-			<div id="about">
-				<div class="hero">
-					<div class="hero__bg"></div>
-					<div class="container">
-						<div class="hero__content wow bounceInLeft">
-							<h1 class="hero__heading">
-								Hello<br>
-								I'm Elaine.
-							</h1>
-							<a href="./resume.pdf" class="btn btn--primary btn--md" target="_blank">RESUME</a> 	
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- about end -->
-			
-			<!-- quote start -->
-			<div class="quote bg-color-white">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6 offset-sm-3">
-							<div class="quote__content">
-								<div class="quote__icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-								<p class="quote__text">
-									對我來說，不學習，毋寧死。
-								</p>
-								<div class="quote__name">
-									<span>
-										- 羅蒙諾索夫
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- quote end -->
+      <!-- main start -->
+      <div class="main">
+        <!-- about start -->
+        <div id="about">
+          <div class="hero">
+            <div class="hero__bg"></div>
+            <div class="container">
+              <div class="hero__content wow bounceInLeft">
+                <h1 class="hero__heading">
+                  Hello<br />
+                  I'm Elaine.
+                </h1>
+                <a
+                  href="https://www.cakeresume.com/s--F0ltU6IUd0s0LHPi0vGqmg--/kim85326-565e07"
+                  class="btn btn--primary btn--md"
+                  target="_blank"
+                  >RESUME</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- about end -->
 
-			<!-- skill start -->
-			<div id="skill" class="skill bg-color-white">
-				<div class="container">
-					<h2 class="subtitle wow bounceInUp">SKILL</h2>
-					<!-- <div class="skill-group">
+        <!-- quote start -->
+        <div class="quote bg-color-white">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 offset-sm-3">
+                <div class="quote__content">
+                  <div class="quote__icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                  <p class="quote__text">
+                    知道的越多，才知知道的越少。
+                  </p>
+                  <div class="quote__name">
+                    <span>
+                      - 蘇格拉底
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- quote end -->
+
+        <!-- skill start -->
+        <div id="skill" class="skill bg-color-white">
+          <div class="container">
+            <h2 class="subtitle wow bounceInUp">SKILL</h2>
+            <!-- <div class="skill-group">
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="skill-card wow bounceInUp" data-wow-delay="0.5s">
@@ -181,529 +214,739 @@
 							</div>
 						</div>						
 					</div> -->
-					<!-- <div class="skill-chart wow bounceInUp" data-wow-delay="1s">
+            <!-- <div class="skill-chart wow bounceInUp" data-wow-delay="1s">
 						<canvas id="myChart" height="40vh" width="80vw"></canvas>
 					</div> -->
-					<iframe class="skill-iframe wow bounceInUp" data-wow-delay="1s" src='https://embed.coggle.it/diagram/XJt_X8SUYlhtq-hT/51fde448410fe5bb80a170decc72c7e54f98fc082571f600c15bfab15a8469eb' frameborder='0' allowfullscreen></iframe>
-				</div>
-			</div>
-			<!-- skill end -->
+            <iframe
+              class="skill-iframe wow bounceInUp"
+              data-wow-delay="1s"
+              src="https://embed.coggle.it/diagram/XJt_X8SUYlhtq-hT/51fde448410fe5bb80a170decc72c7e54f98fc082571f600c15bfab15a8469eb"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <!-- skill end -->
 
-			<!-- experience start -->
-			<div id="experience" class="experience">
-				<div class="container">
-					<h2 class="subtitle color-white wow bounceInUp">EXPERIENCE</h2>
-					<div class="timeline-group">
-						<div class="timeline"></div>
-						<div class="timeline-cards">
-							<div class="timeline-card__row">
-								<div class="timeline-card wow bounceInUp">
-									<p class="timeline-card__text">
-										在學期間曾「伊特諾通訊網路有限公司」擔任研究助理，主要是系統分析、研究資料庫的定義、FACEBOOK API 使用方式，並完成一些 demo 的網頁，例如直播、貼文留言統計、分析等等。
-									</p>
-								</div>
-							</div>
-							<div class="timeline-card__row">
-								<div class="timeline-card wow bounceInUp">
-									<p class="timeline-card__text">
-										上學期實習是在新創公司「九樓壹號科技有限公司」，讓我從無法靈活運用 CSS 的 position 屬性，到可以獨立完成排版、切版，除了 HTML、CSS、Javascript、jQuery、Bootstrap3、Nodejs、Express、Firebase、git 等等技術上的了解，「新創公司的工作模式」、「團隊如何分工合作以及溝通方式」這都是我在這段實習學到的寶貴經驗，也讓我明白如何運用在校學習的知識。
-									</p>
-								</div>
-							</div>
-							<div class="timeline-card__row">
-								<div class="timeline-card wow bounceInUp">
-									<p class="timeline-card__text">
-										下學期在「創炎資訊科技股份有限公司」實習時，使用的 HTML、CSS、Javascript、jQuery、Bootstrap3、PHP、MySQL 作為開發語言，也會開發自己的 jQuery plugin。期間擔任全端工程師並與設計師一同規劃一個全新的訂房網站，從網站規劃、分析、專訪用戶、到網站開發，一路從無到有的經驗，讓我受益良多。
-									</p>
-								</div>
-							</div>
-							<div class="timeline-card__row">
-								<div class="timeline-card wow bounceInUp">
-									<p class="timeline-card__text">
-										目前任職於「中佑集團」的工程師，除了技術上熟悉 SASS、React、Redux、TypeScript、Jest、Enzyme、Laravel，也透過 Code Review 了解到如何撰寫易讀的程式碼，期間公司也導入敏捷開發 Scrum，利用迭代工作法且不斷地改進，更讓我明白使用者真正的需求。
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- experience end -->
+        <!-- experience start -->
+        <div id="experience" class="experience">
+          <div class="container">
+            <h2 class="subtitle color-white wow bounceInUp">EXPERIENCE</h2>
+            <div class="timeline-group">
+              <div class="timeline"></div>
+              <div class="timeline-cards">
+                <div class="timeline-card__row">
+                  <div class="timeline-card wow bounceInUp">
+                    <p class="timeline-card__text">
+                      目前在「中佑集團」擔任「工程師」，部門負責開發帳務管理後台系統、並串接其他部門的金流系統、遊戲網站資訊，另外還負責
+                      VPN APP 與 Web Server。 透過 Code Review
+                      系統了解到如何撰寫易讀的程式碼，期間公司也導入敏捷開發
+                      Scrum，利用迭代工作法且不斷地改進，也讓我更明白使用者真正的需求。
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-card__row">
+                  <div class="timeline-card wow bounceInUp">
+                    <p class="timeline-card__text">
+                      大四下學期在「創炎資訊科技股份有限公司」擔任「全端工程師」，公司主要提供旅宿業者「雲端管理」、「官方線上訂房」、「串接金流」、「通路整合」等服務，讓旅宿業者使用一套系統，方便操作、管理。
+                    </p>
+                  </div>
+                </div>
+                <div class="timeline-card__row">
+                  <div class="timeline-card wow bounceInUp">
+                    <p class="timeline-card__text">
+                      大四上學期實習是在新創公司「九樓壹號科技有限公司」，公司主要開發，雖然在這裡只待了短短的幾個月，卻給我一張珍貴的門票，一張通往工程師職業生涯的門票，除了得到扎實的前端基礎功，「新創公司的工作模式」、「如何在
+                      Google 下關鍵字」也是我在這段實習學到的寶貴經驗。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- experience end -->
 
-			<!-- portfolio start -->
-			<div id="portfolio" class="work bg-color-white">
-				<div class="container">
-					<h2 class="subtitle wow bounceInUp">PORTFOLIO</h2>
-					<div class="work-list">
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work1.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work1_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											Taitung Homestay Accociation
-										</h3>
-										<p class="work-item__intro">
-											台東民宿協會官方網站<br>
-											在 TRAIWAN 實習的時候完成的作品
-										</p>
-										<div class="tags">
-											<span>html</span>
-											<span>css</span>
-											<span>bootstrap</span>
-											<span>javascript</span>
-											<span>jQuery</span>
-											<span>RWD</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/ttha/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 offset-lg-1 order-sm-first">
-									<div class="imgbox">
-										<a href="img/works/work2.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work2_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 order-sm-last">
-									<div class="work-item__text">
-										<h3 class="work-item__title work-item__title--left">
-											nice3s
-										</h3>
-										<p class="work-item__intro">
-											格好青旅 welcome page <br>
-											在 TRAIWAN 實習的時候完成的作品
-										</p>
-										<div class="tags">
-											<span>html</span>
-											<span>css</span>
-											<span>bootstrap</span>
-											<span>javascript</span>
-											<span>jQuery</span>
-											<span>RWD</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="http://nice3s.com" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work13.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work13_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											Sweetaste
-										</h3>
-										<p class="work-item__intro">
-											甜點電商<br>
-											六角學院舉辦的切版大賽<br>
-											根據其提供的設計稿來完成切版<br>
-										</p>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/sweetaste/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 offset-lg-1 order-sm-first">
-									<div class="imgbox">
-										<a href="img/works/work12.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work12_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 order-sm-last">
-									<div class="work-item__text">
-										<h3 class="work-item__title work-item__title--left">
-											角子老虎機
-										</h3>
-										<p class="work-item__intro">
-											在公司聖誕晚會看到的抽獎工具，回家就自己做一個了
-										</p>
-										<div class="tags">
-											<span>Transform</span>
-											<span>React</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/slot-machine/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work3.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work3_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											Instagram
-										</h3>
-										<p class="work-item__intro">
-											主要練習 css 的 animation <br>
-											還有一些互動行為
-										</p>
-										<div class="tags">
-											<span>html</span>
-											<span>css</span>
-											<span>sass</span>
-											<span>javascript</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/animation_practice_ig" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 offset-lg-1 order-sm-first">
-									<div class="imgbox">
-										<a href="img/works/work4.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work4_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 order-sm-last">
-									<div class="work-item__text">
-										<h3 class="work-item__title work-item__title--left">
-											Dumpling
-										</h3>
-										<p class="work-item__intro">
-											團購水餃 <br>
-											這是我第一次使用 sass <br>
-											且利用 prepos 來進行編譯 <br>
-										</p>
-										<div class="tags">
-											<span>html</span>
-											<span>css</span>
-											<span>sass</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/dumpling/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work5.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work5_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											THE F2E 前端修煉精神時光屋 第一關
-										</h3>
-										<p class="work-item__intro">
-											2018年6月參加六角學院舉辦的活動<br>
-											每週舉辦方會出一道題目<br>
-											參賽者需按照提供的設計稿完成關卡<br>
-											第一關題目是 TodoList
-										</p>
-										<div class="tags">
-											<span>Bootstrap</span>
-											<span>CSS web layout</span>
-											<span>CSS Flexbox</span>
-											<span>Vue</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/f2e/week1/todolist.html" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 offset-lg-1 order-sm-first">
-									<div class="imgbox">
-										<a href="img/works/work6.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work6_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 order-sm-last">
-									<div class="work-item__text">
-										<h3 class="work-item__title work-item__title--left">
-											THE F2E 前端修煉精神時光屋 第二關
-										</h3>
-										<p class="work-item__intro">
-											第二關題目是 Filter
-										</p>
-										<div class="tags">
-											<span>Bootstrap</span>
-											<span>RWD</span>
-											<span>Vue-CLI</span>
-											<!-- <span>Axios</span> -->
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/f2e/week2/dist/index.html" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work7.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work7_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											THE F2E 前端修煉精神時光屋 第三關
-										</h3>
-										<p class="work-item__intro">
-											第三關題目是 Admin Order
-										</p>
-										<div class="tags">
-											<span>CSS Flexbox</span>
-											<span>CSS preprocessor (Sass、Less)</span>
-											<span>jQuery</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/f2e/week3/index.html" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 offset-lg-1 order-sm-first">
-									<div class="imgbox">
-										<a href="img/works/work8.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work8_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 order-sm-last">
-									<div class="work-item__text">
-										<h3 class="work-item__title work-item__title--left">
-											THE F2E 前端修煉精神時光屋 第四關
-										</h3>
-										<p class="work-item__intro">
-											第四關題目是 Product Gallery
-										</p>
-										<div class="tags">
-											<span>CSS web layout</span>
-											<span>CSS Grid</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/f2e/week4/index.html" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work9.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work9_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											THE F2E 前端修煉精神時光屋 第五關
-										</h3>
-										<p class="work-item__intro">
-											第五關題目是 Comic Viewer
-										</p>
-										<div class="tags">
-											<span>CSS preprocessor (Sass、Less)</span>
-											<span>Vue-CLI</span>
-											<span>Axios</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/f2e/week5/dist/index.html" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 offset-lg-1 order-sm-first">
-									<div class="imgbox">
-										<a href="img/works/work10.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work10_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 order-sm-last">
-									<div class="work-item__text">
-										<h3 class="work-item__title work-item__title--left">
-											THE F2E 前端修煉精神時光屋 第六關
-										</h3>
-										<p class="work-item__intro">
-											第六關題目是 Validation
-										</p>
-										<div class="tags">
-											<span>Bootstrap</span>
-											<span>JavaScript</span>
-											<span>jQuery</span>
-										</div>
-										<div class="text-btn-group">
-											<a href="https://kim85326.github.io/f2e/week6/" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="work-item wow fadeInUp">
-							<div class="row">
-								<div class="col-sm-6 order-sm-last">
-									<div class="imgbox">
-										<a href="img/works/work11.png" data-fancybox="group">
-											<div class="imgbox__inner imgbox__inner--4-3">
-												<div class="image" style="background-image: url(img/works/thumbnail/work11_thumb.png);"></div>
-											</div>
-										</a>
-									</div>
-								</div>
-								<div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
-									<div class="work-item__text work-item__text--right">
-										<h3 class="work-item__title work-item__title--right">
-											THE F2E 前端修煉精神時光屋 證書
-										</h3>
-										<p class="work-item__intro">
-											2018年8月取得六角學院頒發完賽證書<br>
-											雖然最後三關因為人在大陸無法參賽<br>
-											但先前完成連續六關六星期的比賽讓我受益良多<br>
-											希望下次還有機會能參賽<br>
-										</p>
-										<div class="text-btn-group">
-											<a href="https://www.thef2e.com/Certificate/-LDy0zG639yy_z4H1av-" class="text-btn text-btn--lg text-btn--primary" target="_blank">SHOW</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="btn-group btn-group--center  wow bounceIn">
+        <!-- portfolio start -->
+        <div id="portfolio" class="work bg-color-white">
+          <div class="container">
+            <h2 class="subtitle wow bounceInUp">PORTFOLIO</h2>
+            <div class="work-list">
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work14.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work14_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        怕怕緊抱
+                      </h3>
+                      <p class="work-item__intro">
+                        協助大家面對恐懼的故事作品<br />
+                        下班之餘與臺科大設計系同學一起完成的專題
+                      </p>
+                      <div class="tags">
+                        <span>React</span>
+                        <span>Redux</span>
+                        <span>TypeScript</span>
+                        <span>Lottie</span>
+                        <span>CSS animation</span>
+                        <span>CSS transform</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/fear/"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work15.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work15_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        Ruby VPN
+                      </h3>
+                      <p class="work-item__intro">
+                        Ruby VPN APP 官方網站<br />
+                        在中佑集團任職工程師時完成的作品
+                      </p>
+                      <div class="tags">
+                        <span>React</span>
+                        <span>RWD</span>
+                        <span>i18n</span>
+                        <span>QR Code 產生器</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="http://ruby-vpn.com"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work1.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work1_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        Taitung Homestay Accociation
+                      </h3>
+                      <p class="work-item__intro">
+                        台東民宿協會官方網站<br />
+                        在 TRAIWAN 實習時完成的作品
+                      </p>
+                      <div class="tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>bootstrap</span>
+                        <span>javascript</span>
+                        <span>jQuery</span>
+                        <span>RWD</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/ttha/"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work2.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work2_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        nice3s
+                      </h3>
+                      <p class="work-item__intro">
+                        格好青旅 Welcome Page <br />
+                        在 TRAIWAN 實習時完成的作品
+                      </p>
+                      <div class="tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>bootstrap</span>
+                        <span>javascript</span>
+                        <span>jQuery</span>
+                        <span>RWD</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="http://nice3s.com"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work13.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work13_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        Sweetaste
+                      </h3>
+                      <p class="work-item__intro">
+                        甜點電商<br />
+                        六角學院舉辦的切版大賽<br />
+                        根據其提供的設計稿來完成切版<br />
+                      </p>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/sweetaste/"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work12.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work12_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        角子老虎機
+                      </h3>
+                      <p class="work-item__intro">
+                        在公司聖誕晚會看到的抽獎工具，回家就自己做一個了
+                      </p>
+                      <div class="tags">
+                        <span>Transform</span>
+                        <span>React</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/slot-machine/"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work3.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work3_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        Instagram
+                      </h3>
+                      <p class="work-item__intro">
+                        主要練習 css 的 animation <br />
+                        還有一些互動行為
+                      </p>
+                      <div class="tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>sass</span>
+                        <span>javascript</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/animation_practice_ig"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work4.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work4_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        Dumpling
+                      </h3>
+                      <p class="work-item__intro">
+                        團購水餃 <br />
+                        這是我第一次使用 sass <br />
+                        且利用 prepos 來進行編譯 <br />
+                      </p>
+                      <div class="tags">
+                        <span>html</span>
+                        <span>css</span>
+                        <span>sass</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/dumpling/"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work5.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work5_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        THE F2E 前端修煉精神時光屋 第一關
+                      </h3>
+                      <p class="work-item__intro">
+                        2018年6月參加六角學院舉辦的活動<br />
+                        每週舉辦方會出一道題目<br />
+                        參賽者需按照提供的設計稿完成關卡<br />
+                        第一關題目是 TodoList
+                      </p>
+                      <div class="tags">
+                        <span>Bootstrap</span>
+                        <span>CSS web layout</span>
+                        <span>CSS Flexbox</span>
+                        <span>Vue</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/f2e/week1/todolist.html"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work6.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work6_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        THE F2E 前端修煉精神時光屋 第二關
+                      </h3>
+                      <p class="work-item__intro">
+                        第二關題目是 Filter
+                      </p>
+                      <div class="tags">
+                        <span>Bootstrap</span>
+                        <span>RWD</span>
+                        <span>Vue-CLI</span>
+                        <!-- <span>Axios</span> -->
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/f2e/week2/dist/index.html"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work7.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work7_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        THE F2E 前端修煉精神時光屋 第三關
+                      </h3>
+                      <p class="work-item__intro">
+                        第三關題目是 Admin Order
+                      </p>
+                      <div class="tags">
+                        <span>CSS Flexbox</span>
+                        <span>CSS preprocessor (Sass、Less)</span>
+                        <span>jQuery</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/f2e/week3/index.html"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work8.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work8_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        THE F2E 前端修煉精神時光屋 第四關
+                      </h3>
+                      <p class="work-item__intro">
+                        第四關題目是 Product Gallery
+                      </p>
+                      <div class="tags">
+                        <span>CSS web layout</span>
+                        <span>CSS Grid</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/f2e/week4/index.html"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work9.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work9_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        THE F2E 前端修煉精神時光屋 第五關
+                      </h3>
+                      <p class="work-item__intro">
+                        第五關題目是 Comic Viewer
+                      </p>
+                      <div class="tags">
+                        <span>CSS preprocessor (Sass、Less)</span>
+                        <span>Vue-CLI</span>
+                        <span>Axios</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/f2e/week5/dist/index.html"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 offset-lg-1 order-sm-first">
+                    <div class="imgbox">
+                      <a href="img/works/work10.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work10_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 order-sm-last">
+                    <div class="work-item__text">
+                      <h3 class="work-item__title work-item__title--left">
+                        THE F2E 前端修煉精神時光屋 第六關
+                      </h3>
+                      <p class="work-item__intro">
+                        第六關題目是 Validation
+                      </p>
+                      <div class="tags">
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        <span>jQuery</span>
+                      </div>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://kim85326.github.io/f2e/week6/"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="work-item wow fadeInUp">
+                <div class="row">
+                  <div class="col-sm-6 order-sm-last">
+                    <div class="imgbox">
+                      <a href="img/works/work11.png" data-fancybox="group">
+                        <div class="imgbox__inner imgbox__inner--4-3">
+                          <div
+                            class="image"
+                            style="background-image: url(img/works/thumbnail/work11_thumb.png);"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 offset-lg-1 order-sm-first">
+                    <div class="work-item__text work-item__text--right">
+                      <h3 class="work-item__title work-item__title--right">
+                        THE F2E 前端修煉精神時光屋 證書
+                      </h3>
+                      <p class="work-item__intro">
+                        2018年8月取得六角學院頒發完賽證書<br />
+                        雖然最後三關因為人在大陸無法參賽<br />
+                        但先前完成連續六關六星期的比賽讓我受益良多<br />
+                        希望下次還有機會能參賽<br />
+                      </p>
+                      <div class="text-btn-group">
+                        <a
+                          href="https://www.thef2e.com/Certificate/-LDy0zG639yy_z4H1av-"
+                          class="text-btn text-btn--lg text-btn--primary"
+                          target="_blank"
+                          >SHOW</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="btn-group btn-group--center  wow bounceIn">
 						<a href="#" class="btn btn--secondary">MORE</a>
 					</div> -->
-				</div>
-			</div>
-			<!-- portfolio end -->
-			
-			<div id="contact" class="contact">
-				<div class="container">
-					<h2 class="subtitle color-white wow bounceInUp">CONTACT</h2>
-					<div class="info">
-						<img src="img/self.png">
-						李慈恩 ( Elaine Li ) <br>
-						1996・台中<br>
-						臺灣科技大學資訊工程系<br>
-						E-mail: kim85326@gmail.com
-						<div class="social-bar navbar__social-bar">
-							<a href="https://www.facebook.com/kim85326" class="icon-btn wow bounceInUp" data-wow-delay="0.3s" target="_blank">
-								<i class="fab fa-facebook-square"></i>
-							</a>
-							<a href="https://github.com/kim85326" class="icon-btn wow bounceInUp" data-wow-delay="0.6s" target="_blank">
-								<i class="fab fa-github"></i>
-							</a>
-							<a href="mailto:kim85326@gmail.com" class="icon-btn wow bounceInUp" data-wow-delay="0.9s" target="_blank">
-								<i class="fas fa-envelope"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+          </div>
+        </div>
+        <!-- portfolio end -->
 
-		</div>
-		<!-- main end -->
+        <div id="contact" class="contact">
+          <div class="container">
+            <h2 class="subtitle color-white wow bounceInUp">CONTACT</h2>
+            <div class="info">
+              <img src="img/self.png" />
+              李慈恩 ( Elaine Li ) <br />
+              1996・台中<br />
+              臺灣科技大學資訊工程系<br />
+              E-mail: kim85326@gmail.com
+              <div class="social-bar navbar__social-bar">
+                <a
+                  href="https://www.facebook.com/kim85326"
+                  class="icon-btn wow bounceInUp"
+                  data-wow-delay="0.3s"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a
+                  href="https://github.com/kim85326"
+                  class="icon-btn wow bounceInUp"
+                  data-wow-delay="0.6s"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="mailto:kim85326@gmail.com"
+                  class="icon-btn wow bounceInUp"
+                  data-wow-delay="0.9s"
+                  target="_blank"
+                >
+                  <i class="fas fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main end -->
 
-		<!-- footer start -->
-		<footer>
-			<div class="container">
-				<div class="footer color-white">
-					<p class="footer__text"></p>
-					<p class="copyright">Copyright © 2019 李慈恩</p>
-				</div>
-			</div>
-		</footer>
-		<!-- footer end -->		
-	</div>
-	<script src="js/index.js"></script>
+      <!-- footer start -->
+      <footer>
+        <div class="container">
+          <div class="footer color-white">
+            <p class="footer__text"></p>
+            <p class="copyright">Copyright © 2019 李慈恩</p>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <script src="js/index.js"></script>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137438685-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-137438685-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-	gtag('config', 'UA-137438685-1');
-	</script>
-</body>
+      gtag("config", "UA-137438685-1");
+    </script>
+  </body>
 </html>
